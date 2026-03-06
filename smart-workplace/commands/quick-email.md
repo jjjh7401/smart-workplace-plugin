@@ -1,5 +1,4 @@
 ---
-name: quick-email
 description: 비즈니스 이메일을 빠르게 작성합니다. 상황과 목적에 맞는 전문적인 한국 비즈니스 이메일을 즉시 생성합니다.
 argument-hint: "[이메일 목적과 핵심 내용]"
 allowed-tools: Agent, AskUserQuestion

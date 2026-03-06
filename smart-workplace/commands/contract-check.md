@@ -1,5 +1,4 @@
 ---
-name: contract-check
 description: 계약서의 위험 조항을 분석합니다. 불리한 조항, 모호한 표현, 누락된 보호 조항을 파악하고 개선안을 제시합니다.
 argument-hint: "[계약서 내용 붙여넣기]"
 allowed-tools: Agent, AskUserQuestion

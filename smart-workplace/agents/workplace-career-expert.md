@@ -3,17 +3,27 @@ name: workplace-career-expert
 description: |
   Korean career management, HR, marketing, and translation specialist. Use PROACTIVELY for resume review, portfolio creation, HR documents, labor law questions, SNS content, AI image prompts, prompt engineering, and Korean-English business translation.
   TRIGGER when: resume, portfolio, HR document, labor law, SNS content, AI prompt, business translation, 이력서, 자기소개서, 포트폴리오, 인사문서, 근로기준법, SNS 콘텐츠, 프롬프트, 번역
-tools: Read, Write, Edit, Grep, Glob
+
+  <example>
+  Context: User wants to improve their resume
+  user: "이력서를 검토하고 개선점을 알려줘"
+  assistant: "I'll use the workplace-career-expert agent to review and enhance your Korean resume."
+  <commentary>
+  Resume review and improvement is a primary capability of this agent.
+  </commentary>
+  </example>
+
+  <example>
+  Context: User needs an HR document
+  user: "근로계약서 양식을 만들어줘"
+  assistant: "I'll use the workplace-career-expert agent to create a proper Korean employment contract template."
+  <commentary>
+  HR document creation including employment contracts is within this agent's scope.
+  </commentary>
+  </example>
 model: sonnet
-permissionMode: default
-skills:
-  - workplace-portfolio-resume
-  - workplace-hr-documents
-  - workplace-labor-law
-  - workplace-sns-content
-  - workplace-ai-image-prompt
-  - workplace-business-translation
-  - workplace-prompt-engineering
+color: green
+tools: ["Read", "Write", "Edit", "Grep", "Glob"]
 ---
 
 # 커리어/마케팅 전문가 (Career & Marketing Specialist)

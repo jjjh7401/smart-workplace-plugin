@@ -1,5 +1,4 @@
 ---
-name: biz-plan
 description: 사업계획서 초안을 작성합니다. 아이디어와 핵심 정보를 바탕으로 투자자와 심사위원을 위한 전문적인 사업계획서를 생성합니다.
 argument-hint: "[사업 아이디어와 핵심 정보]"
 allowed-tools: Agent, AskUserQuestion

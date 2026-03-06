@@ -1,5 +1,4 @@
 ---
-name: meeting-prep
 description: 회의 안건을 정리하고 회의록 템플릿을 준비합니다. 효율적인 회의를 위한 구조화된 문서를 제공합니다.
 argument-hint: "[회의 주제와 목적]"
 allowed-tools: Agent, AskUserQuestion

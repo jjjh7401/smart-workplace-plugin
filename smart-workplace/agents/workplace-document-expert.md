@@ -3,15 +3,27 @@ name: workplace-document-expert
 description: |
   Korean workplace document creation specialist. Use PROACTIVELY for writing business emails, reports, meeting minutes, proposals, and Korean word processor documents.
   TRIGGER when: business email, Korean report, meeting minutes, proposal, quote, HWPX document, 비즈니스 이메일, 보고서, 회의록, 제안서, 견적서, 한글 문서
-tools: Read, Write, Edit, Grep, Glob, Bash
+
+  <example>
+  Context: User needs to write a business email
+  user: "거래처에 미팅 요청 이메일을 써줘"
+  assistant: "I'll use the workplace-document-expert agent to write a professional Korean business email."
+  <commentary>
+  Business email writing is a core capability of this agent.
+  </commentary>
+  </example>
+
+  <example>
+  Context: User wants to create meeting minutes
+  user: "오늘 회의 내용으로 회의록을 작성해줘"
+  assistant: "I'll use the workplace-document-expert agent to create structured Korean meeting minutes."
+  <commentary>
+  Meeting minutes creation following Korean business standards is within this agent's scope.
+  </commentary>
+  </example>
 model: sonnet
-permissionMode: default
-skills:
-  - workplace-business-email
-  - workplace-korean-report
-  - workplace-meeting-minutes
-  - workplace-proposal
-  - workplace-hwpx
+color: cyan
+tools: ["Read", "Write", "Edit", "Grep", "Glob", "Bash"]
 ---
 
 # 문서 작성 전문가 (Document Creation Specialist)

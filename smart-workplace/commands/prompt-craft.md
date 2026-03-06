@@ -1,5 +1,4 @@
 ---
-name: prompt-craft
 description: 업무 목적에 맞는 AI 프롬프트를 설계합니다. 원하는 결과를 얻기 위한 최적화된 프롬프트를 작성해드립니다.
 argument-hint: "[달성하려는 업무 목표]"
 allowed-tools: Agent, AskUserQuestion

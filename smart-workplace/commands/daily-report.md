@@ -1,5 +1,4 @@
 ---
-name: daily-report
 description: 오늘의 업무 일일보고서를 즉시 작성합니다. 완료한 업무, 진행 중인 업무, 내일 계획을 구조화된 한국형 보고서로 만들어드립니다.
 argument-hint: "[오늘 한 업무 내용 - 선택사항]"
 allowed-tools: Agent, AskUserQuestion

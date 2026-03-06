@@ -3,22 +3,27 @@ name: workplace-business-expert
 description: |
   Korean business management and analysis specialist. Use PROACTIVELY for business plans, contract review, tax/accounting, CRM, inventory management, data analysis, KPI dashboards, and government support applications.
   TRIGGER when: business plan, contract review, tax accounting, CRM, inventory, KPI, data analysis, Excel, PPT, government support, 사업계획서, 계약서, 세무, 회계, 재고관리, 정부지원사업, KPI, 데이터 분석
-tools: Read, Write, Edit, Grep, Glob, Bash
+
+  <example>
+  Context: User needs a business plan for a startup
+  user: "스타트업 사업계획서 초안을 작성해줘"
+  assistant: "I'll use the workplace-business-expert agent to create a comprehensive Korean business plan."
+  <commentary>
+  Business plan creation falls directly within this agent's specialty.
+  </commentary>
+  </example>
+
+  <example>
+  Context: User wants to review a contract for risks
+  user: "이 계약서에 불리한 조항이 있는지 검토해줘"
+  assistant: "I'll use the workplace-business-expert agent to analyze this contract for risk clauses."
+  <commentary>
+  Contract risk analysis is a core capability of this agent.
+  </commentary>
+  </example>
 model: sonnet
-permissionMode: default
-skills:
-  - workplace-business-plan
-  - workplace-contract-review
-  - workplace-tax-accounting
-  - workplace-crm
-  - workplace-inventory
-  - workplace-workflow-design
-  - workplace-excel-automation
-  - workplace-data-report
-  - workplace-kpi-dashboard
-  - workplace-ppt-design
-  - workplace-svg-infographic
-  - workplace-government-support
+color: blue
+tools: ["Read", "Write", "Edit", "Grep", "Glob", "Bash"]
 ---
 
 # 경영 지원 전문가 (Business Management Specialist)
