@@ -1,12 +1,20 @@
 {
   "name": "smart-workplace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "한국형 직장인을 위한 종합 업무 자동화 플러그인. 24종 스킬과 7종 슬래시 커맨드로 이메일·보고서·계약서·사업계획서 등 모든 업무 문서를 즉시 처리합니다.",
   "author": {
     "name": "jjjh7401"
   },
   "license": "MIT",
-  "keywords": ["workplace", "korean", "business", "productivity", "office", "automation", "document", "한국어","한국어",
+  "keywords": [
+    "workplace",
+    "korean",
+    "business",
+    "productivity",
+    "office",
+    "automation",
+    "document",
+    "한국어",
     "직장인",
     "업무",
     "이메일",
@@ -24,10 +32,8 @@
     "대시보드",
     "KPI",
     "한영번역",
-    "Pretendard"],
+    "Pretendard"
+  ],
   "repository": "https://github.com/jjjh7401/smart-workplace-plugin",
-  "homepage": "https://github.com/jjjh7401/smart-workplace-plugin#readme",
-  "commands": "./commands/",
-  "agents": "./agents/",
-  "skills": "./skills/"
+  "homepage": "https://github.com/jjjh7401/smart-workplace-plugin#readme"
 }

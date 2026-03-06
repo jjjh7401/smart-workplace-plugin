@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-03-06
+
+### Fixed
+
+- `plugin.json`에서 잘못된 경로 선언(`commands`, `agents`, `skills`) 제거 — 플러그인 설치 실패 원인
+- `keywords` 배열에서 `한국어` 중복 항목 제거
+
+---
+
 ## [1.0.0] - 2026-03-03
 
 ### Added
